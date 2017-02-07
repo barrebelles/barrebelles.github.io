@@ -15,18 +15,19 @@
 }*/
 
 .header video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
   background: url('//cdn.shutterstock.com/shutterstock/videos/1109542/preview/stock-footage-yoga-asana-in-sequence-warrior-warrior-pose-warrior-pose-warrior-and-variation-revolved-war.mp4') no-repeat;
   background-size: cover;
+  filter: blur(.75rem) grayscale(1);
+  height: auto;
+  min-height: 100%;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
   transition: 1s opacity;
+  z-index: -100;
+  width: auto;
+  min-width: 100%;
 }
 
 .pane-opaque {
