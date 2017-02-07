@@ -4,6 +4,22 @@
   background: url(../graphics/hero_greyscale.png) no-repeat center center scroll;
 }
 
+.header video {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+
+  left: 0;
+  position: absolute;
+  width: 100% !important;
+  height: auto !important;
+  z-index: -10;
+}
+
 .pane-opaque {
   background-color: rgba(255, 255, 255, .5);
 }
