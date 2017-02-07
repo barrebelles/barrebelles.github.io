@@ -5,5 +5,9 @@
 }
 
 .pane-opaque {
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.pane-padded {
+  padding: 1rem 0 2rem;
 }
