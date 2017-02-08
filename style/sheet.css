@@ -1,20 +1,10 @@
-/* Header */
+/* Elements */
 
-.header {
-  /*background: url(../graphics/hero_greyscale.png) no-repeat center center scroll;*/
+section {
+  background-color: white;
 }
-/*
-.header-less video {
-  filter: blur(.75rem) grayscale(1);
-  -webkit-filter: blur(.75rem) grayscale(1);
-  height: 126% !important;
-  left: -25%;
-  position: absolute;
-  top: -15%;
-  z-index: -1;
-}*/
 
-.header video {
+header video {
   background: url('//cdn.shutterstock.com/shutterstock/videos/1109542/preview/stock-footage-yoga-asana-in-sequence-warrior-warrior-pose-warrior-pose-warrior-and-variation-revolved-war.mp4') no-repeat;
   background-size: cover;
   filter: blur(.75rem) grayscale(1);
@@ -25,10 +15,12 @@
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
   transition: 1s opacity;
-  z-index: -100;
   width: auto;
   min-width: 100%;
+  z-index: -100;
 }
+
+/* Header */
 
 .pane-opaque {
   background-color: rgba(255, 255, 255, .5);
