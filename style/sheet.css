@@ -41,6 +41,6 @@ aside {
 }
 
 /* Gallery */
-.featherlight .featherlight-close-icon {
+.featherlight .featherlight-close-icon:focus {
   outline: none !important;
 }
