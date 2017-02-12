@@ -6,9 +6,9 @@ $("[rel=portfolio]").featherlightGallery({
     closeOnClick: 'background',
     galleryFadeIn: 300,
     galleryFadeOut: 300,
-    nextIcon: '&#27E9',
+    nextIcon: '&#27E9;',
     openSpeed: 300,
-    previousIcon: '&#27E8',
+    previousIcon: '&#27E8;',
     targetAttr: 'href'
 });
 
