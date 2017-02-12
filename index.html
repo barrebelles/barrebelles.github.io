@@ -16,10 +16,14 @@
 
       <!-- Custom Fonts -->
       <link href="typography/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
       <!-- BarreBelles -->
-      <link href="style/sheet.css" rel="stylesheet"></script>
+      <link href="style/sheet.css" rel="stylesheet">
+
+      <!-- Featherlight -->
+      <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.css" rel="stylesheet">
+      <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.gallery.min.css" rel="stylesheet">
 
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -169,7 +173,7 @@
     </aside>
 
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" data-featherlight-gallery>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -178,28 +182,28 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#" rel="portfolio">
+                                <a href="graphics/portfolio_01.png" rel="portfolio">
                                     <img class="img-portfolio img-responsive" src="graphics/showcase_01.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#" rel="portfolio">
+                                <a href="graphics/portfolio_02.png" rel="portfolio">
                                     <img class="img-portfolio img-responsive" src="graphics/showcase_02.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#" rel="portfolio">
+                                <a href="graphics/portfolio_03.png" rel="portfolio">
                                     <img class="img-portfolio img-responsive" src="graphics/showcase_03.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#" rel="portfolio">
+                                <a href="graphics/portfolio_04.png" rel="portfolio">
                                     <img class="img-portfolio img-responsive" src="graphics/showcase_04.png">
                                 </a>
                             </div>
@@ -274,6 +278,13 @@
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="scripts/stylish-portfolio.js"></script>
+
+    <!-- Featherlight lightbox -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.gallery.min.js"></script>
+
+    <!-- Mobile swipe -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.1/jquery.detect_swipe.min.js"></script>
 
     <!-- BarreBelles -->
     <script src="scripts/scripts.js"></script>
