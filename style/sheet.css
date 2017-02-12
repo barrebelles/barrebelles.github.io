@@ -39,3 +39,8 @@ aside {
 .pane-padded {
   padding: 1rem 0 2rem;
 }
+
+/* Gallery */
+.featherlight .featherlight-close-icon {
+  outline: none !important;
+}
