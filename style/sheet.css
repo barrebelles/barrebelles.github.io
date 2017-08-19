@@ -1,21 +1,9 @@
 /* Elements */
 
-
-
-header video {
-  background: url('//cdn.shutterstock.com/shutterstock/videos/1109542/preview/stock-footage-yoga-asana-in-sequence-warrior-warrior-pose-warrior-pose-warrior-and-variation-revolved-war.mp4') no-repeat;
+body {
+  background-attachment: fixed;
+  background-image: url('../graphics/hero_bamboo.jpg');
   background-size: cover;
-  filter: blur(.75rem) grayscale(1);
-  height: auto;
-  min-height: 100%;
-  left: 50%;
-  position: fixed;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  transition: 1s opacity;
-  width: auto;
-  min-width: 100%;
-  z-index: -100;
 }
 
 section {
@@ -31,13 +19,21 @@ aside {
 }
 
 /* Header */
-
-.pane-opaque {
-  background-color: rgba(255, 255, 255, .5);
+body > header div div {
+  height: 50vh;
+  margin-top: 50vh;
 }
 
-.pane-padded {
+body > header .pane-opaque {
+  background-color: rgba(255, 255, 255, .75);
+}
+
+body > header .pane-padded {
   padding: 1rem 0 2rem;
+}
+
+header h1 {
+  color: deeppink;
 }
 
 /* Gallery */
