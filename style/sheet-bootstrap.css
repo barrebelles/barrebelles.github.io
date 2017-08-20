@@ -3,6 +3,11 @@
   background-color: palevioletred;
 }
 
+/* Text */
+.text-primary {
+  color: grey;
+}
+
 /* Buttons */
 .btn-round {
   border-radius: 50%;
