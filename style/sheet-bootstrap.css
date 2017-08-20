@@ -8,6 +8,18 @@
   color: grey;
 }
 
+/* Anchors */
+a {
+  color: palevioletred;
+}
+
+a:focus,
+a:hover {
+  border-bottom: 1px solid palevioletred;
+  color: palevioletred;
+  text-decoration: none;
+}
+
 /* Buttons */
 .btn-round {
   border-radius: 50%;
@@ -21,6 +33,7 @@
   color: palevioletred;
 }
 
+.btn-primary:focus,
 .btn-primary:hover {
   background-color: palevioletred;
   border-color: palevioletred;
@@ -32,4 +45,8 @@
   background-color: lightpink;
   border-color: lightpink;
   color: white;
+}
+
+.btn-sqr {
+  padding: 10px 10px;
 }

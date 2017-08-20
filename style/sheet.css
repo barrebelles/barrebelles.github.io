@@ -60,6 +60,10 @@ header nav {
   background: url(../graphics/callout.png) no-repeat center center scroll;
 }
 
+#callout h1 {
+  font-family: "Dancing Script", sans-serif;
+}
+
 /* Gallery */
 .featherlight .featherlight-close-icon:focus {
   outline: none !important;
