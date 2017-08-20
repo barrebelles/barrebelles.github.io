@@ -1,6 +1,6 @@
 /* Background */
 .bg-primary {
-  background-color: palevioletred;
+  background-color: darkcyan;
 }
 
 /* Text */
@@ -10,13 +10,13 @@
 
 /* Anchors */
 a {
-  color: palevioletred;
+  color: darkcyan;
 }
 
 a:focus,
 a:hover {
-  border-bottom: 1px solid palevioletred;
-  color: palevioletred;
+  border-bottom: 1px solid darkcyan;
+  color: darkcyan;
   text-decoration: none;
 }
 
@@ -29,21 +29,21 @@ a:hover {
 
 .btn-primary {
   background-color: transparent;
-  border-color: palevioletred;
-  color: palevioletred;
+  border-color: darkcyan;
+  color: darkcyan;
 }
 
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: palevioletred;
-  border-color: palevioletred;
+  background-color: darkcyan;
+  border-color: darkcyan;
   color: white;
 }
 
 .btn-primary:active,
 .btn-primary:active:hover {
-  background-color: lightpink;
-  border-color: lightpink;
+  background-color: powderblue;
+  border-color: powderblue;
   color: white;
 }
 
