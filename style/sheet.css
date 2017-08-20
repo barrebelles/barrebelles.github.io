@@ -33,8 +33,23 @@ body > header .pane-padded {
 }
 
 header h1 {
-  color: deeppink;
+  color: palevioletred;
 }
+
+header nav {
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+}
+
+/* Callout */
+#callout {
+  background: url(../graphics/callout.png) no-repeat center center scroll;
+}
+
+/*#callout h1 {
+  color: palevioletred;
+}*/
 
 /* Gallery */
 .featherlight .featherlight-close-icon:focus {
