@@ -20,6 +20,7 @@
 
   <!-- BarreBelles -->
   <link href="style/sheet.css" rel="stylesheet">
+  <link href="style/sheet-bootstrap.css" rel="stylesheet">
 
   <!-- Featherlight -->
   <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.css" rel="stylesheet">
@@ -67,7 +68,11 @@
       <div class="pane-opaque pane-padded">
         <h1>Become a BarreBelle</h1>
         <h3>tagline</h3>
-        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        <nav>
+          <a href="#about" class="btn btn-round btn-primary btn-lg">
+            <span class="fa fa-chevron-down" aria-hidden="true"></span>
+          </a>
+        </nav>
       </div>
     </div>
   </header>
@@ -158,7 +163,7 @@
   </section>
 
   <!-- Callout -->
-  <aside class="callout">
+  <aside id="callout" class="callout">
     <div class="text-vertical-center">
       <h1>The Workout</h1>
       <p>Classes are suitable for every body from beginners or more advanced students, with variations and challenges to suit you.</p>

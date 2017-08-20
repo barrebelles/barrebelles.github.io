@@ -1,0 +1,30 @@
+/* Background */
+.bg-primary {
+  background-color: palevioletred;
+}
+
+/* Buttons */
+.btn-round {
+  border-radius: 50%;
+  color: white;
+  line-height: 1.62857143;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: palevioletred;
+  color: palevioletred;
+}
+
+.btn-primary:hover {
+  background-color: palevioletred;
+  border-color: palevioletred;
+  color: white;
+}
+
+.btn-primary:active,
+.btn-primary:active:hover {
+  background-color: lightpink;
+  border-color: lightpink;
+  color: white;
+}
