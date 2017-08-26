@@ -105,3 +105,10 @@ span.decal {
 img.decal {
   width: 100%;
 }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  span.decal {
+    width: 16rem;
+  }
+}
