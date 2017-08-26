@@ -87,3 +87,21 @@ header nav {
 .featherlight .featherlight-close-icon:focus {
   outline: none !important;
 }
+
+/* Feel */
+.decal {
+  border-radius: 50%;
+}
+
+span.decal {
+  border: .5rem solid;
+  display: block;
+  margin: 1rem auto 2rem;
+  padding: .5rem;
+  position: relative;
+  width: 12rem;
+}
+
+img.decal {
+  width: 100%;
+}
