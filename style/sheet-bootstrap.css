@@ -47,6 +47,20 @@ a:hover {
   color: white;
 }
 
+.btn-primary.btn-round {
+  background-color: rgba(255, 255, 255, .75);
+}
+
+.btn-primary.btn-round:focus {
+  color: darkcyan;
+}
+
+.btn-primary.btn-round:active,
+.btn-primary.btn-round:hover {
+  background-color: darkcyan;
+  color: white;
+}
+
 .btn-sqr {
   padding: 10px 10px;
 }
